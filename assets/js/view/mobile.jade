@@ -1,0 +1,16 @@
+doctype html
+html
+    head(lang='en')
+        meta(charset='UTF-8')
+        title Mobile Payment
+        link(rel='stylesheet', href='/static/style.css')
+    body
+        .demo-container(style='width: 50%')
+            h1 Make Payment
+            form(action='/pay', method='post')
+                div
+                    h5=instructions
+                input(type='hidden', name='reference', value=reference)
+                input(name='phone', type='text', value='' placeholder='Your Phone Number')
+                input(name='code', type='text', value='' placeholder='Transaction code')
+                input(type='submit', value='Pay', class='button')
