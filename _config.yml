@@ -38,8 +38,8 @@ fiscal_sponsor_name:
 #ONLINE DONATIONS & EMAIL SIGNUPS
 #To use these services, enter the required usernames. For further instructions, consult the README file.
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
-donorbox_campaign_name: Donate-inator
-tinyletter_username: Donate-inator
+donorbox_campaign_name: Raspberry Pi for Education in Kenya
+tinyletter_username: 
 
 #SEARCH ENGINES
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
